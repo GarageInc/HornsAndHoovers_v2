@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADD58A56-306B-40FA-8C45-691E245544CC}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HornsAndHooves.Droid</RootNamespace>
+    <AssemblyName>HornsAndHooves.Droid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <MandroidI18n />
+    <JavaMaximumHeapSize>
+    </JavaMaximumHeapSize>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="FormsViewGroup, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\AudioService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\C10.mp3" />
+    <AndroidResource Include="Resources\raw\C9.mp3" />
+    <AndroidResource Include="Resources\raw\C8.mp3" />
+    <AndroidResource Include="Resources\raw\C11_1.mp3" />
+    <AndroidResource Include="Resources\raw\C7.mp3" />
+    <AndroidResource Include="Resources\raw\C13.mp3" />
+    <AndroidResource Include="Resources\raw\C3_2.mp3" />
+    <AndroidResource Include="Resources\raw\C3_1.mp3" />
+    <AndroidResource Include="Resources\raw\C15.mp3" />
+    <AndroidResource Include="Resources\raw\C14.mp3" />
+    <AndroidResource Include="Resources\raw\C12_2.mp3" />
+    <AndroidResource Include="Resources\raw\C12_1.mp3" />
+    <AndroidResource Include="Resources\raw\C11_2.mp3" />
+    <AndroidResource Include="Resources\raw\a17.mp3" />
+    <AndroidResource Include="Resources\raw\a16.mp3" />
+    <AndroidResource Include="Resources\raw\a15.mp3" />
+    <AndroidResource Include="Resources\raw\a14.mp3" />
+    <AndroidResource Include="Resources\raw\a13.mp3" />
+    <AndroidResource Include="Resources\raw\a12.mp3" />
+    <AndroidResource Include="Resources\raw\a07.mp3" />
+    <AndroidResource Include="Resources\raw\a11.mp3" />
+    <AndroidResource Include="Resources\raw\a10.mp3" />
+    <AndroidResource Include="Resources\raw\a09.mp3" />
+    <AndroidResource Include="Resources\raw\a08.mp3" />
+    <AndroidResource Include="Resources\raw\a06.mp3" />
+    <AndroidResource Include="Resources\raw\a05.mp3" />
+    <AndroidResource Include="Resources\raw\Cat.mp3" />
+    <AndroidResource Include="Resources\raw\a04.mp3" />
+    <AndroidResource Include="Resources\raw\a03.mp3" />
+    <AndroidResource Include="Resources\raw\a02.mp3" />
+    <AndroidResource Include="Resources\raw\a01.mp3" />
+    <AndroidResource Include="Resources\drawable\home_default.png" />
+    <AndroidResource Include="Resources\drawable\home_downed.png" />
+    <AndroidResource Include="Resources\drawable\next_default.png" />
+    <AndroidResource Include="Resources\drawable\next_downed.png" />
+    <AndroidResource Include="Resources\drawable\pict1.jpg" />
+    <AndroidResource Include="Resources\drawable\pict2.jpg" />
+    <AndroidResource Include="Resources\drawable\pict3.jpg" />
+    <AndroidResource Include="Resources\drawable\pict4.jpg" />
+    <AndroidResource Include="Resources\drawable\pict5.jpg" />
+    <AndroidResource Include="Resources\drawable\pict6.jpg" />
+    <AndroidResource Include="Resources\drawable\pict7.jpg" />
+    <AndroidResource Include="Resources\drawable\pict8.jpg" />
+    <AndroidResource Include="Resources\drawable\pict9.jpg" />
+    <AndroidResource Include="Resources\drawable\pict10.jpg" />
+    <AndroidResource Include="Resources\drawable\pict11.jpg" />
+    <AndroidResource Include="Resources\drawable\pict12.jpg" />
+    <AndroidResource Include="Resources\drawable\pict13.jpg" />
+    <AndroidResource Include="Resources\drawable\pict14.jpg" />
+    <AndroidResource Include="Resources\drawable\pict15.jpg" />
+    <AndroidResource Include="Resources\drawable\pict16.jpg" />
+    <AndroidResource Include="Resources\drawable\previous_default.png" />
+    <AndroidResource Include="Resources\drawable\previous_downed.png" />
+    <AndroidResource Include="Resources\drawable\speaker_off.png" />
+    <AndroidResource Include="Resources\drawable\speaker_on.png" />
+    <AndroidResource Include="Resources\drawable\text_off.png" />
+    <AndroidResource Include="Resources\drawable\text_on.png" />
+    <AndroidResource Include="Resources\drawable\title_background.jpg" />
+    <AndroidResource Include="Resources\raw\kryshka_kastuli.mp3" />
+    <AndroidResource Include="Resources\raw\teapot.mp3" />
+    <AndroidResource Include="Resources\raw\zvonok_velosipeda.mp3" />
+    <AndroidResource Include="Resources\raw\dog.mp3" />
+    <AndroidResource Include="Resources\raw\raskat_groma.mp3" />
+    <AndroidResource Include="Resources\raw\upal.mp3" />
+    <AndroidResource Include="Resources\raw\detskiy_smeh.mp3" />
+    <AndroidResource Include="Resources\drawable\drop.png" />
+    <AndroidResource Include="Resources\drawable\icon_app.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <Import Project="..\HornsAndHooves\HornsAndHooves.projitems" Label="Shared" Condition="Exists('..\HornsAndHooves\HornsAndHooves.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Folder Include="Resources\raw\" />
+    <Folder Include="services\" />
+  </ItemGroup>
+</Project>

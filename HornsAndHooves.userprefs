@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="HornsAndHooves\HornsAndHooves.Droid\О том, как Петя большим и сильным стал.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.AVD_for_10_1_WXGA_Tablet" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="HornsAndHooves\HornsAndHooves\managers\BookScreenManager.cs" Line="16" Column="9" />
+      <File FileName="HornsAndHooves\HornsAndHooves\screens\0-5\FirstPage.xaml.cs" Line="104" Column="4" />
+      <File FileName="HornsAndHooves\HornsAndHooves\common\SessionConfig.cs" Line="7" Column="33" />
+      <File FileName="HornsAndHooves\HornsAndHooves\screens\base\BaseScreen.xaml.cs" Line="64" Column="4" />
+      <File FileName="c:\Data\cross\HornsAndHooves\HornsAndHooves\HornsAndHooves\screens\0-5\SecondPage.xaml.cs" Line="78" Column="1" />
+      <File FileName="HornsAndHooves\HornsAndHooves.Droid\obj\Release\android\AndroidManifest.xml" Line="8" Column="94" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>HornsAndHooves\HornsAndHooves.iOS\HornsAndHooves.iOS.csproj</String>
+  </DisabledProjects>
+</Properties>

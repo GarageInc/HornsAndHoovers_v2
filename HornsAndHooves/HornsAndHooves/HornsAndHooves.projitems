@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0d57e505-4d08-4ffa-9249-b281326e3e1a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>HornsAndHooves</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)managers\base\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)managers\BookScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)screens\base\BaseScreen.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)common\SessionConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)screens\0-5\FirstPage.xaml.cs">
+      <DependentUpon>FirstPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\0-5\FourthPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)screens\0-5\SecondPage.xaml.cs">
+      <DependentUpon>SecondPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\0-5\ThirdPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)screens\6-10\SixthPage.xaml.cs">
+      <DependentUpon>SixthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\6-10\SeventhPage.xaml.cs">
+      <DependentUpon>SeventhPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\6-10\EightPage.xaml.cs">
+      <DependentUpon>EightPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\6-10\NinthPage.xaml.cs">
+      <DependentUpon>NinthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\6-10\TenthPage.xaml.cs">
+      <DependentUpon>TenthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\11-15\EleventhPage.xaml.cs">
+      <DependentUpon>EleventhPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\11-15\TwelwthPage.xaml.cs">
+      <DependentUpon>TwelwthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\11-15\ThirteensPage.xaml.cs">
+      <DependentUpon>ThirteensPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\11-15\FourteenthPage.xaml.cs">
+      <DependentUpon>FourteenthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\11-15\FifteenthPage.xaml.cs">
+      <DependentUpon>FifteenthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\16-20\SixteentsPage.xaml.cs">
+      <DependentUpon>SixteentsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)services\IAudio.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)screens\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)screens\0-5\FifthPage.xaml.cs">
+      <DependentUpon>FifthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)managers\ScreenPosition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+    <None Include="$(MSBuildThisFileDirectory)screens\0-5\FourthPage.xaml" />
+    <None Include="$(MSBuildThisFileDirectory)screens\0-5\ThirdPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)screens\" />
+    <Folder Include="$(MSBuildThisFileDirectory)managers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)screens\base\" />
+    <Folder Include="$(MSBuildThisFileDirectory)managers\base\" />
+    <Folder Include="$(MSBuildThisFileDirectory)common\" />
+    <Folder Include="$(MSBuildThisFileDirectory)screens\0-5\" />
+    <Folder Include="$(MSBuildThisFileDirectory)screens\6-10\" />
+    <Folder Include="$(MSBuildThisFileDirectory)screens\11-15\" />
+    <Folder Include="$(MSBuildThisFileDirectory)screens\16-20\" />
+    <Folder Include="$(MSBuildThisFileDirectory)services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\base\BaseScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\0-5\FirstPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\0-5\SecondPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\6-10\SixthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\6-10\SeventhPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\6-10\EightPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\6-10\NinthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\6-10\TenthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\11-15\EleventhPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\11-15\TwelwthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\11-15\ThirteensPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\11-15\FourteenthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\11-15\FifteenthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\16-20\SixteentsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\StartPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)screens\0-5\FifthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
